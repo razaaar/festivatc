@@ -1,0 +1,137 @@
+body{
+	font-family: poppins;
+	height: 100vh;
+}
+header .carousel-inner .item{
+	height: 100vh;
+}
+.navbar-inverse{
+	background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand{
+	color:#fff;
+	font-size:20px;
+	padding-left:250px;
+	font-weight: 900;
+}
+.nav .navbar-nav.navbar-right{
+	margin:20px 0;
+}
+.navbar-inverse .navbar-nav >li >a
+{
+	color:#fff;
+	text-transform: uppercase;
+}
+.banner{
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh
+
+}
+.carousel-caption{
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2{
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.carousel-caption h2 span {
+	color: white;
+
+}
+.carousel-caption a {
+	background: orange;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	text-transform: uppercase;
+	border-radius:25px;
+	color:#fff;
+	border-radius: 25px;
+
+}
+.carousel-control.right{
+	background-image: none;
+
+}
+.carousel-control.left{
+	background-image: none;
+
+}
+.carousel-indicators .active{
+	background-color:orange;
+	border-color:orange;
+}
+
+footer{
+	background-color:black;
+	height: auto;
+	width: 100uv;
+	font-family:poppins;
+	color: white;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.footer-content h3{
+	font-size: 1.5rem;
+	font-weight: 200;
+	text-transform: capitalize;
+	line-height: 2rem;
+}
+.footer-content p{
+	max-width: 500px;
+	font-size: 14px;
+	line-height: 20px;
+
+}
+.socials{
+	list-style: none;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin:1rem 0 3rem 0;
+}
+.socials li{
+	margin:0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color:white;
+}
+.social a i{
+	font-size:1.1rem;
+	transition: color .4s ease;
+}
+.socials a:hover i{
+	color:aqua;
+}
+
+@media only screen and (max-width: 767px){
+	.navbar-inverse .navbar-brand{
+		font-size: 30px;
+		padding: 20px 15px;
+
+	}
+	.navbar-collage{
+		background:orange;
+	}
+	.carousel-caption{
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2{
+		font-size: 25px;
+	}
+	.carousel-caption h3{
+		font-size:18px;
+	}
+}
